@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "check_balance",
+      "patterns": [
+        "what's my account balance",
+        "show balance for my savings account",
+        "how much money do i have",
+        "check balance of my savings",
+        "tell me my account balance",
+        "what is my bank balance",
+        "display balance"
+      ],
+      "responses": [
+        "You can check your balance after logging in securely."
+      ]
+    },
+
+    {
+      "tag": "transfer_money",
+      "patterns": [
+        "transfer money",
+        "send money to another account",
+        "move funds",
+        "transfer amount",
+        "send payment"
+      ],
+      "responses": [
+        "Please provide the amount and recipient details to proceed with the transfer."
+      ]
+    },
+
+    {
+      "tag": "card_block",
+      "patterns": [
+        "block my debit card",
+        "block my credit card",
+        "my card is lost",
+        "disable my card",
+        "freeze my card"
+      ],
+      "responses": [
+        "Your card can be blocked immediately after verification."
+      ]
+    },
+
+    {
+      "tag": "find_atm",
+      "patterns": [
+        "where is the nearest atm",
+        "atm near me",
+        "find atm",
+        "nearest cash machine",
+        "locate atm"
+      ],
+      "responses": [
+        "Please enable location access to find nearby ATMs."
+      ]
+    },
+
+    {
+      "tag": "define_datascience",
+      "patterns": [
+        "what is data science",
+        "define data science",
+        "explain data science"
+      ],
+      "responses": [
+        "📊 Data Science is a field that uses statistics, programming, and machine learning to extract insights from data."
+      ]
+    },
+
+    {
+      "tag": "define_deep_learning",
+      "patterns": [
+        "what is deep learning",
+        "define deep learning",
+        "explain deep learning"
+      ],
+      "responses": [
+        "🧠 Deep Learning is a subset of Machine Learning that uses multi-layer neural networks to learn complex patterns."
+      ]
+    }
+  ]
+}

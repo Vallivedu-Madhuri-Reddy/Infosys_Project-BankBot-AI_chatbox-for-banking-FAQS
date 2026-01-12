@@ -1,0 +1,8 @@
+{
+  "account_type": ["savings", "current", "salary"],
+  "loan_type": ["home loan", "personal loan", "education loan"],
+  "card_type": ["credit card", "debit card", "platinum card"],
+  "bank_services": ["balance", "statement", "transactions", "fund transfer", "limit"],
+  "issues": ["lost card", "stolen card", "forgot pin", "account locked"]
+}
+
